@@ -1,0 +1,31 @@
+.container {
+	position: relative;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 6px;
+	display: grid;
+	z-index: 10;
+	height: 140px;
+	width: 300px;
+}
+.container .calcurator {
+	position: relative;
+	display: grid;
+}
+.container .calcurator .value {
+	grid-column: span 4;
+	height: 140px;
+	width: 300px;
+	text-align: right;
+	outline: none;
+	padding: 10px;
+	font-size: 30;
+}
+.container .calcurator span {
+	display: grid;
+	place-items: center;
+	width: 75px;
+	height: 75px;
+	color: #fff;
+	cursor: pointer;
+
+}
